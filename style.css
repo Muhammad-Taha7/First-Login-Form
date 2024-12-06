@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   background-color:  #616CD6; 
+}
+.form1{
+    height: 550px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    background-color: white;
+}
+.text{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.links{
+    height: 60px;
+    width: 100%;
+   margin-top: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+.google{
+    height: 100%;
+    width: 200px;
+    border: 2px solid #6959a3;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+}
+.apple{
+    height: 100%;
+    width: 200px;
+    border: 2px solid #6959a3;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 11px;
+}
+#text{
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#icon1{
+    font-size: 20px;
+}
+#icon2{
+    font-size: 25px;
+}
+.google:hover{
+    cursor: pointer;
+    transition: 0.1s ease-out;
+    border: 4px solid #616CD6;
+}
+.apple:hover{
+    cursor: pointer;
+    transition: 0.1s ease-out;
+    border: 4px solid #616CD6;
+}
+.Email{
+    height: 30px;
+    width: 100%;
+    margin-top: 25px;
+}
+.Email h2{
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input{
+   height: 40px;
+   width: 450px;
+   margin-left: 30px;
+   margin-top: 10px;
+}
+#input{
+    width: 430px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+    color:  black;
+}
+#link{
+    font-size: 16px;
+}
+
+.btn{
+    height: 40px;
+    width: 430px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+.btn button{
+    height: 60px;
+    width: 100%;
+    border-radius: 6px;
+    background-color: #616CD6;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btn button:hover{
+   background: transparent;
+   color: #616CD6;
+     border: 2px solid #616CD6;
+}
+
+.signup{
+    height: 50px;
+    width: 360px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.signup h2{
+    font-size: 20px;
+    text-align: center;
+}
